@@ -5,12 +5,6 @@ using ScreenSound.Modelos;
 try
 {
     var artistaDAL = new ArtistaDAL();
-    /*    artistaDAL.Adicionar(new Artista("Pitty", "Priscilla Novaes Leone, mais conhecida como Pitty, é uma cantora, compositora, produtora, escritora, empresária, apresentadora e multi-instrumentista brasileira."));*/
-
-    var artistaPitty = new Artista("Pitty", "Priscilla Novaes Leone, mais conhecida como Pitty, é uma cantora, compositora, produtora, escritora e multi-instrumentista brasileira.") { Id = 2002 };
-
-    artistaDAL.Atualizar(artistaPitty);
-    artistaDAL.Deletar(artistaPitty);
 
     var listaArtistas = artistaDAL.Listar();
 
