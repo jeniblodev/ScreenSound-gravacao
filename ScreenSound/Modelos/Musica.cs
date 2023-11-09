@@ -15,4 +15,11 @@ public class Musica
         Console.WriteLine($"Nome: {Nome}");
       
     }
+
+    public override string ToString()
+    {
+        return @$"Id: {Id}
+        Nome: {Nome}";
+
+    }
 }
