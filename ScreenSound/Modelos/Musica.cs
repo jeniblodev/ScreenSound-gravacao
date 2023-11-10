@@ -1,6 +1,6 @@
 ﻿namespace ScreenSound.Modelos;
 
-public class Musica
+internal class Musica
 {
     public Musica(string nome)
     {
